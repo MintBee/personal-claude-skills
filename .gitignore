@@ -6,3 +6,12 @@
 !/CLAUDE.md
 !/settings.json
 !/skills/
+
+# Vim temporary files
+*.swp
+*.swo
+*.swn
+*~
+.*.sw[a-z]
+Session.vim
+.netrwhist
