@@ -1,0 +1,266 @@
+{
+	"permissions": {
+		"allow": [
+			"Bash(zsh *)"
+		],
+		"defaultMode": "auto"
+	},
+	"enabledPlugins": {
+		"jdtls-lsp@claude-plugins-official":       true,
+		"kotlin-lsp@claude-plugins-official":      true,
+		"commit-commands@claude-plugins-official": true
+	},
+	"voice": {
+		"enabled": true,
+		"mode":    "hold"
+	},
+	"theme":                    "light",
+	"editorMode":               "vim",
+	"autoCompactEnabled":       true,
+	"skipAutoPermissionPrompt": true,
+	"voiceEnabled":             true,
+	"hooks": {
+		"ConfigChange": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"CwdChanged": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"Elicitation": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"ElicitationResult": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"InstructionsLoaded": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"Notification": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"PermissionDenied": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"PermissionRequest": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"PostCompact": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"PostToolUse": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"PostToolUseFailure": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"PreCompact": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"PreToolUse": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"SessionEnd": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"SessionStart": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"Stop": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"StopFailure": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"SubagentStart": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"SubagentStop": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"TaskCompleted": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"TeammateIdle": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		],
+		"UserPromptSubmit": [
+			{
+				"hooks": [
+					{
+						"command": "\"/Users/pdy/Library/Application Support/GitKrakenCLI/gk\" ai hook run --host claude-code",
+						"type":    "command"
+					}
+				],
+				"matcher": ""
+			}
+		]
+	}
+}

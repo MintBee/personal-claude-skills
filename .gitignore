@@ -1,0 +1,8 @@
+# Ignore everything by default
+/*
+
+# Then unignore the things we want to track
+!/.gitignore
+!/CLAUDE.md
+!/settings.json
+!/skills/
